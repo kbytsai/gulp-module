@@ -1,0 +1,18 @@
+body {
+  background-color: #c2cc2c;
+  span {
+    color: rgb(255, 0, 0);
+    background: url("@img/sample.jpg");
+  }
+}
+@media (max-width: 768px) {
+  span {
+    font-size: 89px;
+  }
+}
+
+@media (max-width: 768px) {
+  span {
+    color: aliceblue;
+  }
+}
