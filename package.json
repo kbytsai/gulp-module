@@ -33,6 +33,9 @@
     "sass": "^1.45.1"
   },
   "devDependencies": {
+    "fs": "0.0.1-security",
+    "gulp-fonter": "^0.3.0",
+    "gulp-ttf2woff2": "^4.0.1",
     "webp-converter": "^2.2.3",
     "webpack": "^5.65.0",
     "webpack-stream": "^7.0.0"
