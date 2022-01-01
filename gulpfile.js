@@ -21,6 +21,7 @@ import { scss } from "./gulp/tasks/scss.js";
 import { js } from "./gulp/tasks/js.js";
 import { images } from "./gulp/tasks/images.js";
 import { otfToTtf, ttfToWoff, fontsStyle } from "./gulp/tasks/fonts.js";
+import { svg } from "./gulp/tasks/svgSprite.js";
 //Наблюдатель за изменениями в файлах
 function watcher() {
   gulp.watch(path.watch.files, copy);
@@ -29,6 +30,8 @@ function watcher() {
   gulp.watch(path.watch.js, js);
   gulp.watch(path.watch.images, images);
 }
+
+export { svg };
 
 const fonts = gulp.series(otfToTtf, ttfToWoff, fontsStyle);
 const mainTasks = gulp.series(
