@@ -1,18 +1,9 @@
-body {
-  background-color: #c2cc2c;
-  span {
-    color: rgb(255, 0, 0);
-    background: url("@img/sample.jpg");
-  }
-}
-@media (max-width: 768px) {
-  span {
-    font-size: 89px;
-  }
-}
+@import "fonts";
 
-@media (max-width: 768px) {
-  span {
-    color: aliceblue;
-  }
+body {
+	font-family: CormorantUpright;
+	font-size: 50px;
+	span {
+		color: red;
+	}
 }
